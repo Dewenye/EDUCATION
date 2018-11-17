@@ -1,0 +1,77 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    overflow-x:hidden;
+    font-family: 'Open Sans', sans-serif;
+    text-redering: optimizeLegibility !important
+}
+
+a{
+    text-decoration: none;
+    transition: all 500ms ease-in-out;
+}
+
+h1,h2,h4{
+    font-family: 'PT Sans Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight
+}
+
+/*navbar*/
+.navbar {
+    text-transform:uppercase;
+    font-family:'PT Sans Narrow', Arial, sans-serif;
+    font-weight: 500;
+    background-color: Purple;
+}
+
+/*About Us*/
+.about{
+    position:relative;
+    width:100%;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    overflow:hidden;
+}
+
+.about h1,h2{
+    text-align:center;
+    font-size:8rem;
+    font-family:'PT Sans Narrow', Arial, sans-serif;
+    background:#ffa500 ; 
+    padding:20px;
+    margin:15px;
+    z-index:1;
+    opacity:.8;
+}
+
+.video-container{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    
+}
+
+/*Contact US*/
+
+.contact{
+    margin-top: 100px;
+    color: Black;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out
+}
+
+.contact h3{
+    font-size: 32px;
+    line-height: 10px;
+}
+
+.contact p{
+    
+}
