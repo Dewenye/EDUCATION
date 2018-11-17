@@ -25,7 +25,6 @@ h1,h2,h4{
     text-transform:uppercase;
     font-family:'PT Sans Narrow', Arial, sans-serif;
     font-weight: 500;
-    background-color: Purple;
 }
 
 /*About Us*/
@@ -39,9 +38,19 @@ h1,h2,h4{
     overflow:hidden;
 }
 
-.about h1,h2{
+.about h2{
     text-align:center;
-    font-size:8rem;
+    font-size:2rem;
+    font-family:'PT Sans Narrow', Arial, sans-serif;
+    background:#ffa500 ; 
+    padding:20px;
+    margin:15px;
+    z-index:1;
+    opacity:.8;
+}
+.mission h1{
+    text-align:center;
+    font-size:2rem;
     font-family:'PT Sans Narrow', Arial, sans-serif;
     background:#ffa500 ; 
     padding:20px;
@@ -51,7 +60,7 @@ h1,h2,h4{
 }
 
 .video-container{
-    position:absolute;
+    position:;
     top:0;
     left:0;
     width:100%;
