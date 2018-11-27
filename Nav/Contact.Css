@@ -22,18 +22,24 @@
 
 .partners {
     padding:65px;
-    background-color: #fff;
+    background-color: #FFF261;
     background-position: center center;
+    text-align: center;
 }
 
 .partners img {
-    padding:6px;
-    width:90%;
-    height:210px;
+    padding: 6px;
+    width: 101%;
+    height: 135px;
+    margin: 18px;
+}
+
+.partners h2,p {
+    color:#FEBA95;
 }
 
 .partners li{
-    color:#fff;
+    color: transparent;
 }
 
 /*Contact US*/
@@ -74,7 +80,7 @@
 }
 
 .contact span {
-    color:#yellow;
+    color: yellow;
     border-radius: 0 !important;
     background-color: #D5AE41 ;
 }
@@ -97,3 +103,4 @@
 .contact #text {
     background:purple;
 }
+
