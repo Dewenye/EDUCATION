@@ -1,0 +1,45 @@
+/*navbar*/
+.navbar {
+    text-transform:uppercase;
+    font-family:'PT Sans Narrow', Arial, sans-serif;
+    font-weight: 500;
+    background-color: white;
+}
+
+.navbar a {
+    
+    color: orange !important;
+    opacity: 0.7;
+}
+
+.navbar a:hover {
+    
+    opacity: 1;
+    background-color: black !important;
+}
+
+/*Partners*/
+
+.partners {
+    padding: 100px;
+    background-color: white;
+    background-position: center center;
+    text-align: center;
+}
+
+.partners img {
+    padding: center;
+    width: 101%;
+    height: 135px;
+    margin: 18px;
+}
+
+.partners h2,p {
+    color:#FEBA95;
+    text-align: center center !important;
+}
+
+.partners li{
+    color: transparent;
+}
+
