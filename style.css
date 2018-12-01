@@ -67,66 +67,72 @@
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {background-color:black;}
 
+.header{
+    box-sizing: border-box;
+}
 
-/*Contact US*/
+.slidershow-container{
+    position: relative;
+    margin: auto;
+    padding: 50px;
+    background: #2B60DE ;
+    margin-top: 16px;
+}
 
-.contact {
-    height: 600px;
-    width: 100%;
-    padding: 30px 0 30px;
-    margin-top: 0px;
-    background-color: #EFC050;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 80px 0 80px;
+.header .myimages img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+    height: 500px;
+}
+/*Service*/
+
+.services {
+    
+    padding: 70px 0 75px;
     text-align: center;
-} 
-
-.contact p {
     
-    padding-bottom: 80px;
-    color: Black;
 }
 
-.contact h5 {
+.services h2,
+.services h4 {
     
-    color: Black;
+    color: Dark Orange;
     margin: 20px 0 20px;
+    text-align: center;
 }
 
-.contact .input-group {
-   
-    margin-bottom: 25px;
-}
 
-.contact .form-control {
+.services p {
     
-    border-radius: 0 !important;
+    color: #737373;
+    font-size: 14px;
+    padding-bottom: 40px;
 }
 
-.contact span {
-    color: yellow;
-    border-radius: 0 !important;
-    background-color: #D5AE41 ;
-}
 
-.contact .btn {
+.services img {
     
-    border-radius: 0;
-    width: 100%;
-    font-size: 15px;
-    background-color: #FFD662;
-    color: Orange;
+    height: 150px;
+    width: 150px;
+    margin: 50px;
 }
 
-.contact .btn:hover {
+.services i {
     
-    background-color: #D5AE41 !important;
-    color:Red !important;
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    font-size: 17px;
+    border-radius: 50%;
+    background-color:Orange;
+    color: #fff;
+    position: relative;
 }
 
-.contact #text {
-    background:purple;
+.services a:hover i {
+    
+    background-color: #709963;
 }
 

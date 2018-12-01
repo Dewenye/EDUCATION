@@ -1,26 +1,29 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        
-    <title>Your Future</title>    
-        
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <!--  Font Awesome -->
-  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-  <!-- Stylesheet -->
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Poppins:400, 900" rel="stylesheet">
-  <!-- Animate CSS -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-   <!-- StyleSheet -->
-   <link rel="stylesheet" type="text/css" href="donate.css">
-    </head>
-    <body>
-        
-       <div id="myNavbar" class="navbar navbar-fixed-top navbar-inverse">
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="donate.css">
+  <script src="js/scripts.js"></script>
+  <script src="jquery-1.12.3.min.js"></script>
+  <title>Donation Page: Hopelink</title>
+  <meta name="description" content="Donation Page: Hopelink<">
+  <meta name="author" content="SitePoint">
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed|Montserrat' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+ </head>
+ <body>
+  <!--[if lt IE 9]>
+  <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  
+  
+  <!-- NavBar -->
+    
+<div id="myNavbar" class="navbar navbar-fixed-top navbar-inverse">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -28,15 +31,25 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            
-            <a href="#" class="navbar-brand"><strong>Your Future</strong></a>
+            <div class="dropdown  navbar-nav ">
+            <a href="header.html" class="navbar-brand"><strong>Your Future</strong></a>
+            <div class="dropdown-content">
+           <strong><a href="header.html">Your Future</a></strong>       
+           <Strong><a href="#services">Services</a></strong>
+            <strong><a href="">Get Involved</a></strong>
+              </div>
+              </div>
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-           <li><a href="aboutus.html"><strong>About US</strong></a></li>
-                <li><a href="meetourteam.html"><strong>Team</strong></a></li>
-                 <li><a href="partners.html"><strong>Partners</strong></a></li>
-                <li><a href="#getinvolved"><strong>Get Involved</strong></a></li>
+                <div class="dropdown  navbar-nav ">
+           <li><button class="dropbtn"><a href="aboutus.html"><strong>About US</strong></a></button></li>
+               <div class="dropdown-content">
+           <strong><a href="aboutus.html">About Us</a></strong>       
+           <Strong><a href="#team">Team</a></strong>
+            <strong><a href="#partners">Partners</a></strong>
+              </div>
+              </div>
                 <li><a href="donate.html"><strong>Donate</strong></a></li>
                 <li><a href="Contact.html"><strong>Contact</strong></a></li>     
             </ul>
@@ -44,22 +57,74 @@
     </div>
 </div>
 
-<!-- Scripts -->    
-<script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous">
-</script>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" i></script>
-<!-- WOW.js -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-  <script>
-  new WOW().init();
-  </script>
-  
-  
-<!-- Bootstrap -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
-    </script>
-    </body>
+ <!-- NavBar -->
+
+<div class="main">
+	<div id="left-column">
+		<div id="donation-box">
+			<div id="bbox-root">	
+			</div>
+			<script type="text/javascript">
+		       window.bboxInit = function () {
+		           bbox.showForm('cbb9e4b2-840c-46ef-b15f-734a595ac626');
+		       };
+		       (function () {
+		           var e = document.createElement('script'); e.async = true;
+		           e.src = 'https://bbox.blackbaudhosting.com/webforms/bbox-min.js';
+		           document.getElementsByTagName('head')[0].appendChild(e);
+		       } ());
+			</script>	
+		</div>
+		    
+	</div>
+	
+		
+
+
+	<div id="right-column">
+			 
+		<div style="text-align: center;">
+			<img class="campaign-image" src="a-.jpg" style="  margin: auto; text-align: center;">				
+      
+      <h1>Your Future</h1>
+			<p>
+				We are dedicated to exposing students to a variety of career paths and help them find their passions. Many students graduate school, not knowing what they want to do. Our mission is to broaden their horizons and help them see the vast amount of options they have available to them.
+			</p>
+
+
+      
+      <a style="text-decoration:none;">
+        <div class="info-button">
+        Learn more about <br> Your Future
+        </div>
+      </a>
+      
+      <div class="page">
+<div id="footer" class="footer">
+     <div class="container">
+         <div class="row">
+            
+             <div class="col-lg-2 col-md-2">
+                 <h4>Pages</h4>
+                 <p><i class="fas fa-book-open" aria-hidden="true"><a href="aboutus.html"></i> About Us</a></p>
+                 <p><i class="fas fa-book-open" aria-hidden="true"></i> Privacy</p>
+                 <p><i class="fas fa-book-open" aria-hidden="true"></i> Term & Condition</p>
+             </div>
+            
+             
+         </div>
+     </div>
+ </div>
+ </div>
+      
+		</div>
+	</div>
+</div>
+	
+	
+
+
+ 
+</body>
+
 </html>

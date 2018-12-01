@@ -3,17 +3,203 @@
     text-transform:uppercase;
     font-family:'PT Sans Narrow', Arial, sans-serif;
     font-weight: 500;
-    background-color: white;
+    background-color:Black;
+}
+
+.campaign-image {
+  width: 12%;
+  margin-bottom: 0px;
+  padding-bottom:0px;
+  border-radius: transparent;
 }
 
 .navbar a {
     
-    color: orange !important;
+    color: #FF4500 !important;
     opacity: 0.7;
 }
 
 .navbar a:hover {
     
     opacity: 1;
-    background-color: black !important;
+    background-color: white !important;
 }
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #000000;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: black;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color:black;}
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,
+pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+
+
+
+body {
+  background-color: #DDDDDD;
+}
+.main {
+  margin: auto;
+  max-width: 1500px;
+  margin-top: 30px;
+  text-align: center;
+  vertical-align:middle;
+}
+
+#donation-box {
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 7px;
+}
+
+#left-column {
+    width:auto;
+    min-width: 300px;
+    max-width: 1400px;
+    display: inline-block;
+  
+}
+
+@media screen and (max-width: 800px) {
+  #donation-box {
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 0px;
+  }
+}
+
+#right-column {
+    width: 20%;
+    min-width: 150px;
+    max-width: 600px;
+    background-color: #ffffff;
+    color: #444444;
+    display: inline-block ;
+    /* float: right; */
+    margin-left: 20px;
+    /* box-sizing: border-box; */
+    /* overflow: hidden; */
+    /* height: 1350px; */
+    vertical-align: top;
+    font-family: Montserrat, sans-serif;
+    border-radius: 7px;
+    position:fixed;
+    margin-top: 10px;
+}
+
+@media (max-width: 1300px) {
+  #right-column {
+    display: none;
+  }
+}
+
+.campaign-image {
+  width: 90%;
+  padding: 5%;
+  margin-bottom: 0px;
+  padding-bottom:0px;
+}
+
+.info-button {
+  Width: 200px;
+  border: 2px solid #00B3bc;
+  border-radius: 7px;
+  height: 50px;
+  color: #00B3bc;
+  font-family: Montserrat;
+  line-height: 1.25em;
+  vertical-align: middle;
+  padding: 4px;
+  overflow:hidden;
+  box-sizing: border-box;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 40px;
+  transition: 1s;
+}
+
+.info-button:hover {
+  background-color: #00B3bc;
+  border: 2px solid #ffffff;
+  color: white;
+  transition: .5s;
+}
+
+#right-column h1 {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+#right-column p {
+  text-align: center;
+  margin: 20px 30px;
+  line-height: 2em;
+}
+
+@import url(//fonts.googleapis.com/css?family=Roboto Condensed);
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+}
+
+@font-face {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.footer{
+    background-color: #FFA500
+}
+input{
+    width:175px;
+}
+
