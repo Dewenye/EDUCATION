@@ -8,7 +8,7 @@
 
 .navbar a {
     
-    color: Orange !important;
+    color: #FF4500 !important;
     opacity: 0.7;
 }
 
@@ -17,6 +17,48 @@
     opacity: 1;
     background-color: Black !important;
 }
+
+/* Dropdown Button */
+.dropbtn {
+    background-color:white;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: black;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color:black;}
 
 
 /*about*/
@@ -32,13 +74,14 @@
 
 .section h1 {
   text-align: center;
-  font-size: 2rem;
+  font-size: 6rem;
   font-family: "Cookie";
   padding: 20px;
   margin: 15px;
   z-index: 1;
   opacity: 0.7;
   font-weight:bold;
+  color: Black;
 }
 
 .video-container {
@@ -62,8 +105,118 @@
   opacity: 0.5;
 }
 /*about*/
-.team img{
-    padding: 50px;
-    height: 350px;
-    width: 270px;
+
+/*TEAM*/
+
+.team {
+    
+    padding: 50px 0 80px;
+    text-align: center;
+}
+
+.team strong,
+.team h2,
+.team h4 {
+    
+    margin: 20px 0 20px;
+    color: #fff;
+}
+
+
+.team p {
+    
+    color: #737373;
+}
+
+.team img {
+    
+    height: 150px;
+    width: 150px;
+    margin-top: 80px;
+}
+
+
+.team i {
+    
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    font-size: 17px;
+    border-radius: 50%;
+    background-color: #a0db8e;
+    color: #fff;
+}
+
+.team a:hover i {
+    
+    background-color: #709963;
+}
+
+/*TEAM*/
+
+.team {
+    
+   padding: 50px 0 80px;
+    background-color: white ;
+    text-align: center;
+}
+
+.team strong,
+.team h2,
+.team h4 {
+    
+    margin: 20px 0 20px;
+    color: #4c4c4c;
+}
+
+
+.team p {
+    
+    color: white;
+}
+
+.team img {
+    
+    height: 150px;
+    width: 150px;
+    margin-top: 80px;
+}
+
+
+.team i {
+    
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    font-size: 17px;
+    border-radius: 50%;
+    background-color: Blue;
+    color: #fff;
+}
+
+.team a:hover i {
+    
+    background-color: #709963;
+}
+.partners {
+    padding: 100px;
+    background-color: white;
+    background-position: center center;
+    text-align: center;
+}
+
+.partners img {
+    padding: center;
+    width: 101%;
+    height: 135px;
+    margin: 18px;
+}
+
+.partners h2,p {
+    color:#FEBA95;
+    text-align: center center !important;
+}
+
+.partners li{
+    color: transparent;
 }
