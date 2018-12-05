@@ -62,7 +62,7 @@ p {
 
 .navbar {
     
-    background-color: #222222 !important;
+    background-color: white !important;
     text-transform: uppercase;
     font-family: 'PT Sans Narrow', Arial, sans-serif;
     font-weight: 700;
@@ -70,7 +70,7 @@ p {
 
 .navbar a {
     
-    color: #fff !important;
+    color: #FF4500 !important;
     opacity: 0.7;
 }
 
@@ -127,8 +127,8 @@ p {
   height: 100vh;
   opacity: 0.5;
 }
-/*about*/
 
+/*SERVICES*/
 
 .services {
     
@@ -140,7 +140,7 @@ p {
 .services h2,
 .services h4 {
     
-    color: Dark Orange;
+    color: Orange;
     margin: 20px 0 20px;
     text-align: center;
 }
@@ -151,14 +151,15 @@ p {
     color: #737373;
     font-size: 14px;
     padding-bottom: 40px;
+    color: Black;
 }
 
 
 .services img {
     
-    height: 150px;
-    width: 150px;
-    margin: 50px;
+    height: 165px;
+    width: 180px;
+    margin: 0px;
 }
 
 .services i {
@@ -168,7 +169,7 @@ p {
     padding: 5px;
     font-size: 17px;
     border-radius: 50%;
-    background-color:Orange;
+    background-color: Orange;
     color: #fff;
     position: relative;
 }
@@ -180,74 +181,83 @@ p {
 
 
 
-/*PRICING*/
+/*Donate*/
 
-.pricing {
-    
-    padding: 50px 0 80px;
+
+.main {
+  margin: auto;
+  max-width: 1500px;
+  margin-top: 30px;
+  text-align: center;
+  vertical-align:middle;
+}
+
+#donation-box {
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 7px;
+}
+
+#left-column {
+    width:auto;
+    min-width: 300px;
+    max-width: 1400px;
+    display: inline-block;
+  
+}
+
+@media screen and (max-width: 800px) {
+  #donation-box {
+    margin: auto;
     text-align: center;
-    background-color: #3399ff;
-}
-
-.pricing h2,
-.pricing p {
-    
-    color: #fff;
-}
-
-.pricing p {
-    
-    padding-bottom: 40px;
-}
-
-.pricing .packages {
-    
-    padding: 30px;
-    border: 1px solid #ccc;
-    background-color: #fff;
-    border-radius: 5px;
-    margin-top: 30px;
-}
-
-
-.packages li {
-    
-    display: block;
-    padding: 5px;
-}
-
-.packages h4,
-.packages h1,
-.packages strong {
-    
-    color: #4c4c4c;
-}
-
-.packages p,
-.packages li {
-    
-    color: #737373;
-}
-
-.packages button {
-    
-    margin-top: 10px;
+    vertical-align: middle;
+    margin-left: 0px;
+  }
 }
 
 
 
-@media(max-width:768px) {
-    
-    .pricing {
-        
-        padding: 30px;
-    }
-    
-    .packages {
-        
-        width: 80%;
-        margin-left: 25px;
-    }
+@media (max-width: 1300px) {
+}
+
+
+.info-button {
+  Width: 200px;
+  border: 2px solid #00B3bc;
+  border-radius: 7px;
+  height: 50px;
+  color: #00B3bc;
+  font-family: Montserrat;
+  line-height: 1.25em;
+  vertical-align: middle;
+  padding: 4px;
+  overflow:hidden;
+  box-sizing: border-box;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 40px;
+  transition: 1s;
+}
+
+.info-button:hover {
+  background-color: #00B3bc;
+  border: 2px solid #ffffff;
+  color: white;
+  transition: .5s;
+}
+
+@import url(//fonts.googleapis.com/css?family=Roboto Condensed);
+@import url(//fonts.googleapis.com/css?family=Montserrat);
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+}
+
+@font-face {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+input{
+    width:175px;
 }
 
 
@@ -264,19 +274,19 @@ p {
 .team h4 {
     
     margin: 20px 0 20px;
-    color: #4c4c4c;
+    color: Orange;
 }
 
 
 .team p {
     
-    color: #737373;
+    color: Black;
 }
 
 .team img {
     
-    height: 150px;
-    width: 150px;
+    height: 180px;
+    width: 165px;
     margin-top: 80px;
 }
 
@@ -288,13 +298,14 @@ p {
     padding: 5px;
     font-size: 17px;
     border-radius: 50%;
-    background-color: #a0db8e;
-    color: #fff;
+    background-color: Orange;
+    color: white;
 }
 
 .team a:hover i {
     
-    background-color: #709963;
+    background-color: Black;
+    color: Orange;
 }
 
 
@@ -303,7 +314,7 @@ p {
 .clients {
     
     padding: 50px 0 80px;
-    background-color: #3399ff;
+    background-color: #FFA500;
     text-align: center;
     color: #fff;
 }
@@ -330,32 +341,41 @@ p {
 
 .clients li:hover img {
     
-    opacity: 1;
+    opacity: 1000;
 }
 
 
 /*CONTACT*/
 
+/*Contact US*/
+
 .contact {
-    
-    padding: 50px 0 80px;
+    height: 600px;
+    width: 100%;
+    padding: 30px 0 30px;
+    margin-top: 0px;
+    background-color: white;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0 80px;
     text-align: center;
-}
+} 
 
 .contact p {
     
     padding-bottom: 80px;
-    color: #737373;
+    color: Black;
 }
 
 .contact h2 {
     
-    color: #4c4c4c;
+    color: Orange;
     margin: 20px 0 20px;
 }
 
 .contact .input-group {
-    
+   
     margin-bottom: 25px;
 }
 
@@ -365,8 +385,9 @@ p {
 }
 
 .contact span {
-    
+    color: white;
     border-radius: 0 !important;
+    background-color: Orange ;
 }
 
 .contact .btn {
@@ -374,14 +395,18 @@ p {
     border-radius: 0;
     width: 100%;
     font-size: 15px;
-    background-color: #f08080;
-    color: #fff;
+    background-color: Orange;
+    color: white;
 }
 
 .contact .btn:hover {
     
-    background-color: #a85959 !important;
-    color: #fff !important;
+    background-color: black !important;
+    color: Orange !important;
+}
+
+.contact #text {
+    background: orange;
 }
 
 
@@ -391,9 +416,17 @@ p {
     
     padding: 30px;
     color: #cccccc;
-    background-color: #222222;
+    background-color: Black;
 }
 
+.footer h4{
+    color: Orange;
+}
+
+.footer p {
+    color: white;
+
+}
 
 .footer .social {
     
@@ -409,7 +442,6 @@ p {
 
 
 .footer input {
-    
     height: 40px;
     width: 160px;
     padding: 5px;
